@@ -1,1 +1,37 @@
+Flow chart and pesudocode
+START
+INPUT N
+SET sum = 0
+FOR i from 1 to N
+    sum = sum + i
+PRINT sum
+END
+
+Introduction to c++
+#include <iostream> / This is a basic structure of C++
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+
+    int sum = 0;
+
+    for(int i = 1; i <= n; i++) { // i = 1 → start from 1 ,  i <= n → run loop until n , i++ → increase i by 1 each time
+        sum = sum + i;
+    }
+
+    cout << "Sum = " << sum;
+    return 0;
+}
+// ❌ Common Mistakes
+
+// Forgetting to initialize sum = 0
+
+// Writing i < n instead of i <= n
+
+// Forgetting return 0;
+
+
 
