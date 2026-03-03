@@ -14,10 +14,10 @@
 // >> // Write a program to print numbers in n times using loops ~  
 // >> // Difference between "" and endl; in patterns ~
 // >> // Write a program to print charcter in sqaure patterns ~
-// >> // 
-// >> // 
-// >> // 
-// >> // 
+// >> // write a program to print pattern in number continous matter ex - 123,456,789 ~ 
+// >> // write a program to print alphabets in continuous matter ~ 
+// >> // Triangular pattern ~ 
+// >> // write a program to print * in triangluar pattern ~ 
 // >> // 
 // >> // 
 // >> // 
@@ -251,6 +251,93 @@ int main(){
 // write under the outer loops not in line 20 like ch = 'A' because it runs A only for one time .
 // In line 27 we known that char have ASCII value A - 65 so we add 1 in ch complier do implicit conversion firstly it A into 65
 // then add 1 and after adding to storage in ch it convert automatically into 'B'. It do these conversion for all 26 letters 
+
+
+// write a program to print pattern in number continous matter ex - 
+// 123,456,789
+# include <iostream>
+using namespace std;
+int main(){
+    int n; 
+    cout<<"Enter the number :-"<<endl;
+    cin>>n;
+    int num = 1;
+    for(int i = 0 ; i < n ; i++){
+        for(int j = 0 ; j< n ; j++){
+            cout<<num<<" ";
+            num++;
+        }
+        cout<<endl;
+    }
+    
+}
+// how this work ?
+// we use num = 1 bcz we dont want same starting we want contitunity
+// we use num instaed of j bcz if we use j so same number repate in every row like
+// 123,123,123,123. now when we use num so output will be 123 , 456,789.
+
+// write a program to print alphabets in continuous matter 
+# include <iostream>
+using namespace std;
+int main(){
+    int n; 
+    cout<<"Enter the number :-"<<endl;
+    cin>>n;
+    char num = 'A';
+    for(int i = 0 ; i < n ; i++){
+        for(int j = 0 ; j< n ; j++){
+            cout<<num<<" ";
+            num++;
+        }
+        cout<<endl;
+    }
+    
+}
+// how this work ?
+// we simply replace int num = 1 to char num = 'A' bcz of this in inner loop num value covert into
+// ASCII value then print 
+
+
+// Triangluar pattern 
+// write a program to print * in triangluar pattern 
+ # include <iostream>
+ using namespace std;
+ int main(){
+     int i , j , n;
+     cout<<"enter a number ="<<endl;
+     cin>>n;
+     for(i = 0 ; i<n ; i++){
+         for(j = 0 ; j<=i; j++){
+             cout<<'*'<<" ";
+         }
+    cout<<endl;
+         }
+         return 0;
+     }
+// how these work ?
+// we have 2 apporach j<=i and j < i + 1 
+// how j <=n print * in everyy row ?
+/// when row i = <0> 
+// inner loop j=0 , j <=0 right 
+// star print 
+// then j++ and j = 1 , 1<=0 wrong
+// loop ended 
+// when row i = <1> 
+// j = 0 , j<=1 right 
+// star print 
+// j++, j = 1 , 1<=1 right 
+// star print 
+// j++ , j = 2 , j<= 1 worng 
+// loop ended 
+// when row i =<2> 
+// j = 0 , j<=1 right 
+// star print 
+// j++, j = 1 , 1<=2 right 
+// star print 
+// j++ , j = 2 , j<= 2 right 
+// star print 
+// j++ , j = 3 , j<=2 wrong 
+// loop ended 
 
 
 
