@@ -10,19 +10,25 @@
 // >> // While loops ~ 
 // >> // Do - while loops ~ 
 // >> // Patterns ~ 
-// >> // Write a program to print * in sqaure in proper indentation 
+// >> // Write a program to print * in sqaure in proper indentation  ~ 
 // >> // Write a program to print numbers in n times using loops ~  
-// >> // Difference between "" and endl; in patterns 
+// >> // Difference between "" and endl; in patterns ~
+// >> // Write a program to print charcter in sqaure patterns ~
 // >> // 
 // >> // 
-
-
-
-
-
-
-
-
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
+// >> // 
 
 
 
@@ -221,6 +227,30 @@ return 0 ;
 // if you use endl ; everything print like - 1
 //                                         - 2
 //                                         - 3
+
+
+// Write a program to print charcter in sqaure patterns 
+# include <iostream>
+using namespace std;
+int main(){
+    int n ;
+    cout<<"Enter your number :"<<endl;
+    cin>>n;
+    for(int i = 0 ; i<n ; i++){ // outer loops 
+        char ch = 'A';
+        for (int j = 0 ; j<n ; j++){
+            cout<<ch<<" ";
+            ch = ch + 1 ;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+//  how this work ?
+// we write ch = 'A' in the outer loop because always we have to start with A and also make sure ch = 'A'.
+// write under the outer loops not in line 20 like ch = 'A' because it runs A only for one time .
+// In line 27 we known that char have ASCII value A - 65 so we add 1 in ch complier do implicit conversion firstly it A into 65
+// then add 1 and after adding to storage in ch it convert automatically into 'B'. It do these conversion for all 26 letters 
 
 
 
