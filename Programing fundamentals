@@ -1,4 +1,4 @@
-Index 
+// Index 
 >> // Flowchart and pesudocode ~ 
 >> // Introduction to C++ ~ 
 >> // Write a program to sum 1 to n natural terms ~ 
@@ -6,10 +6,15 @@ Index
 >> // Operators ~ 
 >> // Conditional statement ~ 
 >> // Loops (for, while, do-while) ~ 
->> // For loops -
->> // While loops - 
->> // Do - while loops - 
->>
+>> // For loops ~
+>> // While loops ~ 
+>> // Do - while loops ~ 
+>> // Patterns ~ 
+>> // Write a program to print * in sqaure in proper indentation 
+>> // Write a program to print numbers in n times using loops ~  
+>> // Difference between "" and endl; in patterns 
+>> // 
+>> // 
 
 
 
@@ -47,7 +52,6 @@ int main() {
     return 0;
 }
 // ❌ Common Mistakes
-
 // Forgetting ;
 // Writing Int instead of int
 // Missing {}
@@ -175,7 +179,50 @@ do {
 // Infinite loop (forgetting i++)
 // Off-by-one error (< vs <=)
 // Declaring loop variable outside and reusing incorrectly
- 
+
+
+// Patterns 
+// write a program to print * in sqaure in proper indentation 
+# include <iostream>
+using namespace std;
+int main(){
+    int i , n ;
+   
+    cout<<"enter your number = "<<endl; // take input n or number as input 
+    cin>>n;
+    for (int i = 1 ; i<=n; i++){ // outer loops is use to for number of line 
+        for( int j = 1 ; j<=n ; j++){ // inner loops is make sure that what to print in rows 
+            cout<<"*";
+        }
+    cout<<endl; // this use for new line if we cant use this everything print in one one which looks messy 
+    }
+    
+}
+
+
+// Write a program to print numbers in n times using loops 
+# include <iostream>
+using namespace std ;
+int main(){
+int n , j , i;
+cout<<"Enter your number : "<<endl;
+cin>>n;
+for(i = 1 ; i <=n ; i++){
+   for(int j = 1 ; j <= n ; j++){
+     cout<<j<<"";
+}
+ cout<<endl;
+}
+return 0 ; 
+}
+
+// Difference between "" and endl;
+// if you use "" everything print like - 1 2 3 
+// if you use endl ; everything print like - 1
+//                                         - 2
+//                                         - 3
+
+
 
 
 
