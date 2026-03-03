@@ -1,20 +1,20 @@
-// Index 
->> // Flowchart and pesudocode ~ 
->> // Introduction to C++ ~ 
->> // Write a program to sum 1 to n natural terms ~ 
->> // Variables & Data Types ~ 
->> // Operators ~ 
->> // Conditional statement ~ 
->> // Loops (for, while, do-while) ~ 
->> // For loops ~
->> // While loops ~ 
->> // Do - while loops ~ 
->> // Patterns ~ 
->> // Write a program to print * in sqaure in proper indentation 
->> // Write a program to print numbers in n times using loops ~  
->> // Difference between "" and endl; in patterns 
->> // 
->> // 
+// >> // Index 
+// >> // Flowchart and pesudocode ~ 
+// >> // Introduction to C++ ~ 
+// >> // Write a program to sum 1 to n natural terms ~ 
+// >> // Variables & Data Types ~ 
+// >> // Operators ~ 
+// >> // Conditional statement ~ 
+// >> // Loops (for, while, do-while) ~ 
+// >> // For loops ~
+// >> // While loops ~ 
+// >> // Do - while loops ~ 
+// >> // Patterns ~ 
+// >> // Write a program to print * in sqaure in proper indentation 
+// >> // Write a program to print numbers in n times using loops ~  
+// >> // Difference between "" and endl; in patterns 
+// >> // 
+// >> // 
 
 
 
@@ -175,7 +175,7 @@ do {
     cout << i << " ";
     i++;
 } while(i <= 5); // In these  loop run atleast run 1 time even if the conditon is false 
-// ❌ Common Mistakes in Loops
+// // ❌ Common Mistakes in Loops
 // Infinite loop (forgetting i++)
 // Off-by-one error (< vs <=)
 // Declaring loop variable outside and reusing incorrectly
