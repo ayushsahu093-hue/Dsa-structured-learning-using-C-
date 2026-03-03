@@ -1,42 +1,15 @@
-# Dsa-structured-learning-using-C++
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Data Structures and Algorithms in C++</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2, h3 {
-            color: #222;
-        }
-        ul {
-            margin-bottom: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .container {
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05);
-        }
-    </style>
 </head>
 <body>
-
-<div class="container">
 
 <h1>Data Structures and Algorithms in C++</h1>
 
 <p>
-This repository documents my complete learning and practice of <strong>Data Structures and Algorithms using C++</strong>.
+This repository documents my complete learning and practice of Data Structures and Algorithms using C++.
 The content is organized topic-wise in structured learning order so that anyone can easily navigate and revise specific concepts.
 </p>
 
@@ -50,7 +23,6 @@ The content is organized topic-wise in structured learning order so that anyone 
 
 <h2>Topics Covered</h2>
 
-<div class="section">
 <h3>1. Programming Fundamentals</h3>
 <ul>
     <li>Flowcharts and Pseudocode</li>
@@ -62,9 +34,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Pattern Problems</li>
     <li>Functions</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>2. Arrays & Searching</h3>
 <ul>
     <li>One-Dimensional Arrays</li>
@@ -73,9 +43,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Binary Search</li>
     <li>Array-based Problem Solving</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>3. Sorting Algorithms</h3>
 <ul>
     <li>Bubble Sort</li>
@@ -84,18 +52,14 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Built-in Sort</li>
     <li>Time Complexity Comparison</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>4. Time & Space Complexity</h3>
 <ul>
     <li>Big-O Notation</li>
     <li>Best, Average, Worst Case</li>
     <li>Complexity Analysis of Algorithms</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>5. Pointers & Memory Concepts</h3>
 <ul>
     <li>Pointer Basics</li>
@@ -103,9 +67,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Pointers with Arrays</li>
     <li>Dynamic Memory Allocation</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>6. Strings & Character Arrays</h3>
 <ul>
     <li>String Basics</li>
@@ -113,9 +75,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Palindrome Problems</li>
     <li>String-based Algorithms</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>7. Recursion & Backtracking</h3>
 <ul>
     <li>Basic Recursion</li>
@@ -123,18 +83,14 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Backtracking Concepts</li>
     <li>Classic Problems (Subsets, Permutations, N-Queens type problems)</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>8. Bit Manipulation</h3>
 <ul>
     <li>Bitwise Operators</li>
     <li>Set, Clear, Update Bits</li>
     <li>Bit-based Problem Solving</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>9. Object-Oriented Programming</h3>
 <ul>
     <li>Classes and Objects</li>
@@ -143,9 +99,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Inheritance</li>
     <li>Polymorphism</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>10. Standard Template Library (STL)</h3>
 <ul>
     <li>Vector</li>
@@ -157,9 +111,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Map</li>
     <li>Set</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>11. Linked List</h3>
 <ul>
     <li>Singly Linked List</li>
@@ -167,36 +119,28 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Circular Linked List</li>
     <li>Operations & Problems</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>12. Stack & Queue</h3>
 <ul>
     <li>Stack Implementation</li>
     <li>Queue Implementation</li>
     <li>Applications of Stack & Queue</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>13. Trees</h3>
 <ul>
     <li>Binary Tree</li>
     <li>Tree Traversals (Inorder, Preorder, Postorder)</li>
     <li>Level Order Traversal</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>14. Binary Search Tree (BST)</h3>
 <ul>
     <li>BST Operations</li>
     <li>Insert, Delete, Search</li>
     <li>BST-based Problems</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>15. Heaps & Priority Queue</h3>
 <ul>
     <li>Min Heap</li>
@@ -204,9 +148,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Heap Operations</li>
     <li>Heap-based Problems</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>16. Hashing</h3>
 <ul>
     <li>Hash Maps</li>
@@ -214,9 +156,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Collision Handling</li>
     <li>Frequency-based Problems</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>17. Graphs</h3>
 <ul>
     <li>Graph Representation</li>
@@ -224,9 +164,7 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>DFS</li>
     <li>Graph Traversal Problems</li>
 </ul>
-</div>
 
-<div class="section">
 <h3>18. Dynamic Programming</h3>
 <ul>
     <li>Recursion to DP</li>
@@ -234,7 +172,6 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>Tabulation</li>
     <li>Classic DP Problems</li>
 </ul>
-</div>
 
 <h2>Purpose of This Repository</h2>
 <ul>
@@ -243,8 +180,6 @@ The content is organized topic-wise in structured learning order so that anyone 
     <li>A collection of common mistakes to avoid</li>
     <li>A reference for clean and optimized C++ implementations</li>
 </ul>
-
-</div>
 
 </body>
 </html>
