@@ -1,3 +1,34 @@
+Index 
+>> // Flowchart and pesudocode ~ 
+>> // Introduction to C++ ~ 
+>> // Write a program to sum 1 to n natural terms ~ 
+>> // Variables & Data Types ~ 
+>> // Operators ~ 
+>> // Conditional statement ~ 
+>> // Loops (for, while, do-while) ~ 
+>> // For loops -
+>> // While loops - 
+>> // Do - while loops - 
+>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Flow chart and pesudocode
 START
 INPUT N
@@ -7,7 +38,22 @@ FOR i from 1 to N
 PRINT sum
 END
 
-Introduction to c++
+ // Introduction to c++
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello World";
+    return 0;
+}
+// ❌ Common Mistakes
+
+// Forgetting ;
+// Writing Int instead of int
+// Missing {}
+
+
+// write a program to sum 1 to n natural terms 
 #include <iostream> / This is a basic structure of C++
 using namespace std;
 
@@ -26,12 +72,112 @@ int main() {
     return 0;
 }
 // ❌ Common Mistakes
-
 // Forgetting to initialize sum = 0
-
 // Writing i < n instead of i <= n
-
 // Forgetting return 0;
+
+
+// Variables & Data Types
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 20; // int → whole numbers
+    double salary = 25000.50; // double - decimal value 
+    char grade = 'A';// character for single alphabet
+    bool isPassed = true; // for conditions - true or false 
+
+    cout << age << endl;
+    cout << salary << endl;
+    cout << grade << endl;
+    cout << isPassed << endl;
+
+    return 0;
+}
+// Common mistake 
+// Using double quotes for char → "A" ❌
+// Using single quotes for string → 'Hello' ❌
+// Not initializing variables
+
+
+// Operators 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 3;
+
+    cout << a + b << endl;  // Addition
+    cout << a - b << endl;  // Subtraction
+    cout << a * b << endl;  // Multiplication
+    cout << a / b << endl;  // Division
+    cout << a % b << endl;  // Modulus
+
+    return 0;
+}
+// ❌ Common Mistakes
+// Confusing = and ==
+// Dividing by zero
+// Forgetting precedence rules
+
+
+// Conditional Statements
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if(num > 0) {
+        cout << "Positive";
+    }
+    else if(num < 0) {
+        cout << "Negative";
+    }
+    else {
+        cout << "Zero";
+    }
+
+    return 0;
+}
+// ❌ Common Mistakes
+// Using = instead of ==
+// Missing braces in multi-line blocks
+// Forgetting logical operators (&&, ||)
+
+
+ // Loops (for, while, do-while)
+// For loops 
+for(int i = 1; i <= 5; i++) {
+    cout << i << " ";
+}
+
+// Structure 
+// Initialization - i = 1 or 0 ; Condition - i<=n  or i<=5  ; Increment - i++ , i--;
+
+// While loops 
+int i = 1; // Initilazation 
+
+while(i <= 5) { // Condtion 
+    cout << i << " ";
+    i++; // Increment 
+}
+
+// Do-While Loop 
+int i = 1;
+
+do {
+    cout << i << " ";
+    i++;
+} while(i <= 5); // In these  loop run atleast run 1 time even if the conditon is false 
+// ❌ Common Mistakes in Loops
+// Infinite loop (forgetting i++)
+// Off-by-one error (< vs <=)
+// Declaring loop variable outside and reusing incorrectly
+ 
+
+
 
 
 
