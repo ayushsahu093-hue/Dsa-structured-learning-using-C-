@@ -1,9 +1,80 @@
-Data - strutured - algorithms using c++
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
 
-This repository showcases my structured and comprehensive journey of learning Data Structures and Algorithms (DSA) using C++. It is organized in a clear, topic-wise progression starting from programming fundamentals and gradually advancing to complex concepts such as Trees, Graphs, Heaps, Hashing, and Dynamic Programming. The goal of this repository is not only to implement algorithms, but to deeply understand problem-solving techniques, optimize logic, and analyze time and space complexity effectively.
+<h2>📌 Project Overview</h2>
+<p>
+This project is a comprehensive Data Structures and Algorithms (DSA) repository developed using C++.
+</p>
+<p>
+The main objective of this repository is to build a <strong>strong foundation in problem-solving and algorithmic thinking</strong> 
+through structured learning and consistent practice.
+</p>
 
-Each topic includes well-written and clean C++ implementations along with carefully selected practice problems to strengthen conceptual clarity. I have also documented important approaches, edge cases, common mistakes, and lessons learned while solving problems. This makes the repository useful as both a learning resource and a structured revision guide.
+<hr>
 
-The content reflects consistent practice, logical thinking development, and a focus on writing efficient, readable code. It serves as a strong foundation for coding interviews, competitive programming, and academic preparation. Overall, this repository represents my dedication to mastering core computer science concepts and building solid problem-solving skills through disciplined and practical learning.
+<h2>🎯 Key Objective</h2>
+<ul>
+    <li>Cover DSA from <strong>basic to advanced topics</strong></li>
+    <li>Implement concepts using <strong>clean and optimized C++ code</strong></li>
+    <li>Practice <strong>interview-relevant problems</strong></li>
+    <li>Maintain a structured resource for <strong>revision and improvement</strong></li>
+</ul>
 
-Do you like this personality?
+<hr>
+
+<h2>🧠 How the Repository is Structured</h2>
+<ol>
+    <li>Topics are organized in a <strong>step-by-step learning order</strong></li>
+    <li>Each section contains <strong>core concept implementations</strong></li>
+    <li>Practice problems are included for deeper understanding</li>
+    <li>Important approaches and common mistakes are documented</li>
+    <li>Time and space complexity analysis is considered</li>
+</ol>
+
+<hr>
+
+<h2>🔑 Core Concepts Covered</h2>
+<ul>
+    <li>Programming Fundamentals</li>
+    <li>Arrays & Searching</li>
+    <li>Sorting Algorithms</li>
+    <li>Recursion & Backtracking</li>
+    <li>Pointers & Memory Concepts</li>
+    <li>Linked List, Stack & Queue</li>
+    <li>Trees, BST & Heaps</li>
+    <li>Hashing & Graphs</li>
+    <li>Dynamic Programming</li>
+    <li>Standard Template Library (STL)</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ Skills Developed</h2>
+<p>✔ Problem-solving and logical thinking</p>
+<p>✔ Code optimization techniques</p>
+<p>✔ Complexity analysis (Time & Space)</p>
+<p>✔ Clean and structured C++ implementation</p>
+
+<hr>
+
+<h2>🧪 Technologies Used</h2>
+<ul>
+    <li><strong>Language:</strong> C++</li>
+    <li><strong>Concepts:</strong> Data Structures & Algorithms</li>
+    <li><strong>Approach:</strong> Object-Oriented & Modular Programming</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 Author</h2>
+<p>
+Ayush Sahu<br>
+BCA Student
+</p>
+
+</body>
+</html>
